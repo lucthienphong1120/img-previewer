@@ -31,7 +31,7 @@ These functions are provided:
 # How to use
 
 ```html
-<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="./img-previewer.css">
 <script src="./img-previewer.js"></script>
 <script>
   const imgPreviewer = new ImgPreviewer('#app', {
