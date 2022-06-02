@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="./dist/img-previewer.css">
+    <script src="./dist/img-previewer.js"></script>
+    <style>
+        img {
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Img Previewer</h1>
+    <p>A light wight javascript image viewing plugin with silky preview animation and dependence free
+        <a href="https://github.com/lucthienphong1120/img-previewer">Download on Github</a>
+    </p>
+    <div id="app">
+        <img src="https://cdnimg.vietnamplus.vn/uploaded/bokttj/2022_03_10/aldrin_apollo.jpg">
+        <img src="https://media.travelmag.vn/files/thuannguyen/2020/04/25/cach-chup-anh-dep-tai-da-lat-1-2306.jpeg">
+        <img src="https://cdn.tgdd.vn/Files/2019/07/25/1181745/chup-anh-hieu-ung-bokeh-la-gi-cach-chup-anh-bokeh-don-gian-bang-may-anh--2.jpg">
+        <img src="https://v5m6g2b4.rocketcdn.me/wp-content/uploads/2020/12/3edae1dd0a.jpeg">
+        <img src="https://image.thanhnien.vn/w660/Uploaded/2022/pwivoviu/2020_08_24/01_esvt.jpg">
+        <img src="https://i.pinimg.com/564x/62/ed/6e/62ed6ea71018a57a3ab0c8c959d78cb0.jpg">
+        <img src="https://vcdn-dulich.vnecdn.net/2021/07/26/anhip5-jpeg-1514-1627273627.jpg">
+        <img src="https://metricleo.com/wp-content/uploads/2021/03/word-image-23.jpeg">
+        <img src="https://vcdn1-dulich.vnecdn.net/2021/07/16/8-1626444967.jpg">
+        <img src="https://img.nhandan.com.vn/Files/Images/2020/07/26/nhat_cay-1595747664059.jpg">
+        <img src="https://img.websosanh.vn/v2/users/review/images/4wvuq0i4ozs1q.jpg">
+        <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2021/5/26/913299/Ngan-Ha25.jpg">
+        <img src="https://cdn.nguyenkimmall.com/images/detailed/555/may-anh-cho-nguoi-moi.jpg">
+        <img src="https://icdn.dantri.com.vn/thumb_w/640/2017/1-1510967806416.jpg">
+        <img src="https://icdn.dantri.com.vn/thumb_w/640/2019/03/06/nhiepanhgia-2-1551849137024.jpg">
+        <img src="https://cdn.tgdd.vn/Files/2019/01/01/1142002/s8high_800x600.jpg">
+        <img src="https://vcdn-dulich.vnecdn.net/2021/12/24/An-Giang-0-jpeg-1470-1640315739.jpg">
+    </div>
+    <script>
+        const imgPreviewer = new ImgPreviewer('#app', {
+            scrollbar: true
+        });
+    </script>
+</body>
+
+</html>
